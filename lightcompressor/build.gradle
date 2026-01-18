@@ -3,6 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'maven-publish'
 
 android {
+    namespace 'com.abedelazizshe.lightcompressorlibrary'
     compileSdkVersion 35
     defaultConfig {
         minSdkVersion 21

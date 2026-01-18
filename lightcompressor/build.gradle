@@ -5,6 +5,7 @@ apply plugin: 'maven-publish'
 android {
     namespace 'com.abedelazizshe.lightcompressorlibrary'
     compileSdkVersion 35
+    ndkVersion "29.0.14206865"
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 35

@@ -5,6 +5,7 @@ apply plugin: 'kotlin-kapt'
 android {
     namespace 'com.abedelazizshe.lightcompressor'
     compileSdkVersion 35
+    ndkVersion "29.0.14206865"
     defaultConfig {
         applicationId "com.abedelazizshe.lightcompressor"
         minSdkVersion 21
